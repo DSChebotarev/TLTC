@@ -6,7 +6,7 @@
 <li>We can't forget to mention that we had difficulties while creating the wibsite, especially with the dynamic timeline and the descriptions.</li>
 </ul>
 <h2>‍🔧 Installation And Usage</h2>
-  <p>To set up the website you need to follow the steps:</p>
+  <p><b>To set up the website you need to follow the steps:<b></p>
   <ol>
     <li></li>
   </ol>
