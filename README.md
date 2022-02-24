@@ -1,4 +1,5 @@
-<h1>TLTC History Project 📜</h1>
+<img align="left" height = "70" width = "200" src="https://user-images.githubusercontent.com/85336782/155582153-fddfd710-453c-460a-9094-e83a9c6ac1e3.png" /> 
+<h1>History Project 📜</h1>
 <h2>📙 Description<h2>
 <ul>
 <li>Our wibsite is about the most iconic moments during the history of Bulgaria.</li>
