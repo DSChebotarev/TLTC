@@ -1,15 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name = "viewport", content="width=device-width, inital-scale = 1.0"/>
-        
-        <link rel = "stylesheet" href = "contactus.css">
+<html lang = "en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name = "viewport", content="width=device-width, inital-scale = 1.0"/>
     
-        <script src = "mainscript.js"></script>
-    
-    </head>
+    <link rel = "stylesheet" href = "contactus.css">
+
+    <script src = "mainscript.js"></script>
+
+</head>
+
 <body>
-    
+       
+        <header>
+
+            <div class = "menu-toggle" id = "something"></div>
+            <div class = "overlay"></div>
+            <div class = "container1">
+
+                <nav>
+                    <ul>
+                        <li><a href = "index.html" class = "ani">Home</a></li>                   
+                        <li><a href="#" class = "ani">Main</a></li>
+                        <li><a href ="contactus.html" class = "ani">Contact</a></li>                  
+                    </ul>
+                </nav>      
+            </div>   
+        </header>
+        
+        <form>
+        <div class="container">
+  
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+
+
+          
 </body>
+
 </html>
