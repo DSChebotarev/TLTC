@@ -161,3 +161,50 @@ nav ul li a:hover::after
                     font-size: 2.5rem;
                 }   
 }
+.ft
+{
+    font-size: 200%;
+    margin-top: auto;
+    width: auto;
+    height: auto;
+    color: none;
+    background-color: transparent;
+
+}
+.hr{
+    height: 10px;
+    background-color: rgba(104, 41, 12, 0.705);
+}
+
+.cps
+{
+    text-align: center;
+}
+
+.social-icons{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1% 1% 1% 1%;
+}
+
+.social-icons li{
+    margin: 0 10px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    padding: 20%;
+}
+
+.social-icons a i{
+    font-size: 100%;
+    width: 100%;
+    transition: color .4s ease;
+}
+
+.social-icons a:hover i{
+    color: rgb(0, 0, 0);
+}
