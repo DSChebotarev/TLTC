@@ -31,23 +31,26 @@
         
         <form>
         <div class="container">
-  
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        
-            <label for="country">Country</label>
-            <select id="country" name="country">
-              <option value="australia">Australia</option>
-              <option value="canada">Canada</option>
-              <option value="usa">USA</option>
-            </select>
-        
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-        
+            <h1 >Contact Us</h1>
+            <div class="info">  
+                <div class="align1">
+                    <input type="input" class="bdisplay" placeholder="First Name" name="name" id='name' required />
+                    <label for="name" class="label"></label>
+                  </div>
+                  <div class="align2">
+                    <input type="input" class="bdisplay" placeholder="Last Name" name="lname" id='lname' required />
+                    <label for="lname" class="label"></label>
+                  </div>
+                  <div class="align3">
+                    <label for="email" class="label"></label>
+                    <input type="input" class="bdisplay" placeholder="Email" name="email" id='email' required />
+                    
+                  </div> 
+                    <div class="align4">
+                        <label for="feedback"></label>
+                        <textarea id="feedback" name="feedback" class="bdisplay" placeholder="Message" style="height:120px;"></textarea>
+                    </div>
+            </div>
             <input type="submit" value="Submit">
           </form>
         </div>
