@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -8,11 +9,12 @@
 html {
     font-size: 10px;
     font-family: "Roboto Cn", sans-serif;
+    background-color:cadetblue;
 }
 
 a{
     text-decoration: none;
-    color: rgb(175, 19, 19);
+    color: rgb(255, 255, 255);
 }
 
 header {
@@ -22,7 +24,7 @@ header {
 
     background-size: cover;
     position: relative;
-    overflow-x: hidden;
+    
 }
 
 .container1 {
@@ -30,15 +32,18 @@ header {
     width: 90%;
     margin: 0 auto;
     margin-left: 38%;
+    
+
 }
 
 nav {
-    padding-top: 3rem;
+    padding-top: 2%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-transform: uppercase;
     font-size: 1.6rem;
+    margin-left: 6%;
 }
 
 nav ul {
@@ -175,25 +180,98 @@ input[type=text], select, textarea {
 }
 
 input[type = submit] {
-  background-color: #eb510a;
-  color: rgb(88, 43, 43);
+  background-color: cadetblue;
+  color: rgb(255, 255, 255);
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
 }
 
 input[type=submit]:hover {
-  background-color: #124153;
+  background-color:darkgrey;
 }
 
 .container {
     margin-top: 20px;
-  border-radius: 5px;
-  background-color: #ffffff;
-  padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    height: auto;
+    width: auto;
+    
 }
 
 form
 {
     text-align: center;
+    margin-left: 32%;
+    margin-right: 32%;
+    margin-top: 8%;
+    
+}
+.info{
+    display: inline;
+    
+}
+
+
+.email{
+    width: 50%;
+    border-width:0px;
+    padding-right: 2%;
+    font-size: medium;
+    text-align: left;
+}
+
+.align1 {
+  padding: 2% 0 0;
+  width: 45%;
+  float: left;
+  margin-top: 3%;
+}
+.align2 {
+    padding: 2% 0 0;
+    width: 45%;
+    float: right;
+    margin-top: 3%;
+  }
+
+.align3 {
+    padding: 2% 0 0;
+    margin-top: 3%;
+    width: 100%;
+    float: left;
+    
+  }
+
+.align4 {
+    padding: 2% 0 0;
+    margin-top: 3%;
+    width: 100%;
+    float: left;
+    
+ }
+
+  .bdisplay {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  color: black;
+  padding: 7px 0;
+  background: transparent;
+  
+
+}
+.label{
+    text-align: top;
+    font-size: medium;
+
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
+}
+.feedback{
+    padding-top: 20px;
 }
