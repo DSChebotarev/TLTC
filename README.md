@@ -14,3 +14,6 @@
     <li>Open the "main.html" file to go to the webpage</li>
   </ol>
     <h1></h1>
+  <a href = "https://codingburgas-my.sharepoint.com/:p:/r/personal/dmdimitrov20_codingburgas_bg/_layouts/15/Doc.aspx?sourcedoc=%7BA86BCE4F-7A0B-41A5-AE5B-4CD59CBF0EFF%7D&file=TLTC.pptx&action=edit&mobileredirect=true"> Presentation</a>
+  <a href = "https://codingburgas-my.sharepoint.com/:w:/r/personal/dmdimitrov20_codingburgas_bg/_layouts/15/Doc.aspx?sourcedoc=%7BDBEC6CE4-C47B-460B-8125-20F26CDCCBD5%7D&file=Документация%20на%20TLTC.docx&action=default&mobileredirect=true">Documentation</a>
+    <a href = "https://codingburgas-my.sharepoint.com/:w:/r/personal/dmdimitrov20_codingburgas_bg/_layouts/15/Doc.aspx?sourcedoc=%7B48017035-6EDE-492F-B5E0-8840974C17BE%7D&file=QA%20Documentation.docx&action=default&mobileredirect=true">QA Documentation</a>
