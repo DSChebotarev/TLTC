@@ -3,7 +3,7 @@
 <h2>📙 Description<h2>
 <ul>
 <li>Our wibsite is about the most iconic moments during the history of Bulgaria.</li>
-<li>In the site you will see a timeline that shows all of the dates and if you want to read additional information about a specific date (historical momonet), you can click the circle below the date to reveal it.</li>
+<li>In the site you will see a timeline that shows all of the dates and if you want to read additional information about a specific date (historical momonet), you can click the circle below the date to reveal it. Also the website has an interactive map that breathly tells about the regions in Bulgaria.</li>
 <li>We can't forget to mention that we had difficulties while creating the wibsite, especially with the dynamic timeline and the descriptions.</li>
 </ul>
 <h1>‍🔧 Installation And Usage</h1>
