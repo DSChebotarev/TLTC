@@ -18,7 +18,6 @@ a {
 header {
     width: 100%;
     height: 100vh;
-
     background-size: cover;
     position: relative;
     overflow-x: hidden;
@@ -31,8 +30,9 @@ header {
     margin-left: 38%;
 }
 
+
 nav {
-    padding-top: 3rem;
+    padding-top: 4%;
     display: flex;
     justify-content: space-between;
     align-items: center;
