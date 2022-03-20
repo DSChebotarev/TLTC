@@ -188,7 +188,7 @@ nav ul li a:hover::after
         text-align: center;
         font-size: 125px;
         font-family: 'Italianno', cursive;
-        color: #b38600;
+        color: #1d1604;
     }
 
     #secondtitle{
@@ -239,6 +239,7 @@ nav ul li a:hover::after
 .cps
 {
     text-align: center;
+    font-size: 25px;
 }
 
 .social-icons{
@@ -251,6 +252,7 @@ nav ul li a:hover::after
 
 .social-icons li{
     margin: 0 10px;
+    margin-top: 2%;
 }
 
 .social-icons a{
