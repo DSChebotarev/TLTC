@@ -275,3 +275,23 @@ nav ul li a:hover::after
 .social-icons a:hover i{
     color: rgb(0, 0, 0);
 }
+
+@media screen and (max-width: 1536px){
+   .data{
+    margin-left: 100px;
+   } 
+
+   #timeline{
+       height: 8px;
+       margin-top: 542px;
+   }
+
+   .testcircle{
+       width: 30px;
+       height: 30px;
+   }
+
+   .social-icons a i{
+       font-size: 150%;
+   }
+}
