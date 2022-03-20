@@ -9,12 +9,18 @@
 html {
     font-size: 10px;
     font-family: "Roboto Cn", sans-serif;
-    background-color:rgb(192, 184, 162);
+}
+
+body{
+    background-image: url("http://visionsofthepastblog.com/wp-content/uploads/2012/10/old_paper1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(175, 19, 19);
 }
 
 header {
@@ -176,7 +182,7 @@ input[type=text], select, textarea {
 }
 
 input[type = submit] {
-  background-color: rgb(99, 99, 98);
+  background-color: cadetblue;
   color: rgb(255, 255, 255);
   padding: 12px 20px;
   border: none;
@@ -271,4 +277,3 @@ h1{
 .feedback{
     padding-top: 20px;
 }
-
