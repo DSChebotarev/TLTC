@@ -10,7 +10,7 @@ html {
 }
 
 body{
-    background-image: url("https://tipsmake.com/data/images/the-most-beautiful-historical-powerpoint-wallpapers-picture-14-I8d83OOY0.jpg");
+    background-image: url("http://visionsofthepastblog.com/wp-content/uploads/2012/10/old_paper1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -188,3 +188,19 @@ nav ul li a:hover::after
       bottom: 10px;
       width: 1380px;
   }
+
+  .btn1 {
+    font-size: 30px;
+    position: absolute;
+    left: 1%;
+    top: 87%;
+    padding: 1% 2%;
+    border-radius: 13px;
+    outline: none;
+    border: none;
+}
+
+.btn1:hover {
+    transition: all .1s ease;
+    transform: translateY(-.5rem);
+}
