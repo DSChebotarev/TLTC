@@ -9,7 +9,7 @@
 html {
     font-size: 10px;
     font-family: "Roboto Cn", sans-serif;
-    background-color:cadetblue;
+    background-color:rgb(192, 184, 162);
 }
 
 a{
@@ -176,7 +176,7 @@ input[type=text], select, textarea {
 }
 
 input[type = submit] {
-  background-color: cadetblue;
+  background-color: rgb(99, 99, 98);
   color: rgb(255, 255, 255);
   padding: 12px 20px;
   border: none;
