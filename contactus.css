@@ -20,11 +20,10 @@ a{
 header {
     width: 100%;
     margin-top: 20px;
-    
-
     background-size: cover;
     position: relative;
-    
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .container1 {
@@ -32,8 +31,6 @@ header {
     width: 90%;
     margin: 0 auto;
     margin-left: 38%;
-    
-
 }
 
 nav {
@@ -43,7 +40,6 @@ nav {
     align-items: center;
     text-transform: uppercase;
     font-size: 1.6rem;
-    margin-left: 6%;
 }
 
 nav ul {
@@ -275,3 +271,4 @@ h1{
 .feedback{
     padding-top: 20px;
 }
+
