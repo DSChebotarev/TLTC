@@ -17,7 +17,6 @@ a{
 }
 
 header {
-    float: left;
     width: 100%;
     margin-top: 20px;
     background-size: cover;
@@ -29,12 +28,12 @@ header {
 .container1 {
     max-width: 120rem;
     width: 90%;
-    margin: 0 auto;
+    margin: 0;
     margin-left: 38%;
 }
 
 nav {
-    padding-top: 3rem;
+    padding-top: 2%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -163,12 +162,6 @@ nav ul li a:hover::after
                     font-size: 2.5rem;
                 }   
 }
-
-
-    *{
-        margin: 0;
-        padding: 0;
-    }
      
     body{
         background-image: url("background.jpg");
@@ -267,31 +260,11 @@ nav ul li a:hover::after
 }
 
 .social-icons a i{
-    font-size: 100%;
+    font-size: 200%;
     width: 100%;
     transition: color .4s ease;
 }
 
 .social-icons a:hover i{
     color: rgb(0, 0, 0);
-}
-
-@media screen and (max-width: 1536px){
-   .data{
-    margin-left: 100px;
-   } 
-
-   #timeline{
-       height: 8px;
-       margin-top: 542px;
-   }
-
-   .testcircle{
-       width: 30px;
-       height: 30px;
-   }
-
-   .social-icons a i{
-       font-size: 150%;
-   }
 }
